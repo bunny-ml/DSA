@@ -1,13 +1,20 @@
 print("DSA in python")
 
 import time 
+# start = time.time()
 
-start = time.time()
 
-for i in range(100):
-    print(i* '*')
+# for i in range(10):
+#     print(i* '*')
+# end = time.time() - start
+# print(" time taken ",end)
 
-end = time.time() - start
+start1 = time.time()
 
-print(end)
+j = 0
 
+while j<= 10:
+    print( j * '*')
+    j += 1
+
+print(' time taken ' , time.time() - start1)
