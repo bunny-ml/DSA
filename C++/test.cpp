@@ -7,7 +7,7 @@ int main(int argc, char const *argv[])
 	
 	// printf("enter your name\n");
 	// string name = "Abhishek";
-	// // cin >> name ;
+	// cin >> name ;
 	// cout << "Hello " << name << endl;
 	// char a = 'A'; // only single Quotes for char
 	// cout << a <<endl;
@@ -40,9 +40,9 @@ int main(int argc, char const *argv[])
 	// }
 
 	// if ( a != b ){
-	// 	cout << "hello world" <<endl;
+	// 					cout << "hello world" <<endl;
 
-	// }
+	// 				}
 	// else if ( a == b){
 	// 	cout << "hello only" <<endl;
 	// }
@@ -80,5 +80,19 @@ int main(int argc, char const *argv[])
 
 	// cout << "sum of "<< input <<" is: "<< sum<<endl;
 
+
+ 	// int num = 9;
+ 	// int i = 2;
+ 	// while ( i < num){
+ 	// 	i++;
+ 	// 	if (num%i==0){
+ 	// 	cout<< "not Prime for "<< i<<endl;
+ 	// }
+ 	// 	else{
+ 	// 		cout << "is Prime for "<< i<<endl;
+ 	// 	}}
+ 
+
 	return 0;
 }
+
