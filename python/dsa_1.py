@@ -31,22 +31,26 @@
 """
 	stack 
 """
-stack = [ '1', 'a', 'b']
-print(f"stack {stack}")
+# stack = [ '1', 'a', 'b']
+# print(f"stack {stack}")
 
-# push
-stack.append('x')
-print(f"stack push {stack}")
+# # push
+# stack.append('x')
+# print(f"stack push {stack}")
 
-# pop 
-stack.remove('a')
-print(f"stack pop {stack}")
+# # pop 
+# stack.remove('a')
+# print(f"stack pop {stack}")
 
-# isEmpty
-if bool(stack) == True:
-	print(f"stack isEmpty")
-else:
-	print(f"stack is not Empty")
-# size 
-print(f"size of stack is {len(stack)}")
+# # isEmpty
+# if bool(stack) == True:
+# 	print(f"stack isEmpty")
+# else:
+# 	print(f"stack is not Empty")
+# # size 
+# print(f"size of stack is {len(stack)}")
+
+
+"""
+	
 
