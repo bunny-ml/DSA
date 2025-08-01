@@ -140,6 +140,8 @@ class solution_to_question_3:
     def add_participant(self):
         id_1 = int(input("Enter the ID: "))
         name = str(input("Enter the name: "))
+        if id_1 in self.__data:
+            
         self.__data[id_1] = [name]
         return self.__data
 
@@ -151,10 +153,7 @@ class solution_to_question_3:
                 value =True
         return f"Is name in the dictionar : {value}"
 
-    def max_participants(self):
-        max_limit = 2
-        if len()
-        pass
+        
 
 
 sol_3 = solution_to_question_3(data_2)
