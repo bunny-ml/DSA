@@ -2,16 +2,16 @@
 	find the minimum value 
 """
 
-# l = [ 1, 2, 5, 6, 7, 9, 10 , 11, 0 , 22, 33, 11]
+l = [ 1, 2, 5, 6, 7, 9, 10 , 11, 0 , 22, 33, 11]
 
-# lenth = len(l)
-# value = l[0]
+lenth = len(l)
+value = l[0]
 
-# for i in range(lenth):
-# 	if value > l[i]:
-# 		value = l[i]
+for i in range(lenth):
+	if value > l[i]:
+		value = l[i]
 
-# print(value)
+print(value)
 
 
 
@@ -51,6 +51,6 @@
 # print(f"size of stack is {len(stack)}")
 
 
-"""
+# """
 	
 
